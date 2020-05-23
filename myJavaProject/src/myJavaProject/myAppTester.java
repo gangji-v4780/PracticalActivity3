@@ -14,7 +14,17 @@ public class myAppTester {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		 
+         addition();
+         
+	}
+	//This is the method to add two numbers
+	public static void addition() {
+		int firstNum = 1;
+		 int secondNum = 2;
+		 int result;
+		result= firstNum + secondNum;
+		System.out.println("Addition Result:" + result);
 	}
 
 }
